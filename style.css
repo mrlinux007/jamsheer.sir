@@ -41,7 +41,6 @@ height:50px;
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  border-bottom:1px dotted
 }
 
 /* Style the button used to pause/play the video */
@@ -53,11 +52,10 @@ height:50px;
   background: #000;
   color: #fff;
   cursor: pointer;
-  transition: .5s;
 }
 
 #myBtn:hover {
-  background: white;
+  background: #ddd;
   color: black;
 }
 h1 {

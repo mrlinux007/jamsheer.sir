@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>SONG OF THE RAIN</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+ul li{
+font-size:120%;
+font-weight:bold;
+MARGIN: 0 6PX;
+}
+.bottom{
+top: 100%;
+transform: translateY(-100%);
+position: fixed;
+width:100%;
+}
+.bottom li{
+border-top-left-radius: 23px;
+border-top-right-radius: 23px;
+margin:0 25px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+.bg1{
+width:100%;
+height:100%;
+background:url('cloud.jpg');
+background-size:cover;
+}
+}
+.bottom li ul{
+  position:absolute;
+height:50px;
+ width: 100%;  
+top: -126%;
+width: 20%;
+text-align: center;
+transition:ease-out .5s;
+color: black;
+}
+.bottom li ul a {
+		color:  black;
+	}
+
+.bottom li ul a:hover{
+		color: red;
+	}
+.bottom li {
+	padding:1% 2.5%;
+	} 
+
+
+#head{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #1670f0;
+  padding: 30px 60px;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  overflow: hidden;transition:0.5s;
+}
+#head:hover{
+ transform:translate(-50%,-50%) scale(1.07);
+}
+
+#head span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #0c002b, #1779ff);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+#head span:nth-child(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #0c002b, #1779ff);
+  animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}
+
+#head span:nth-child(3){
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #0c002b, #1779ff);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+#head span:nth-child(4){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #0c002b, #1779ff);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(-100%);
+  }
+}
+body ul a{
+	transition: ease-out .5s;
+	color: red;
+	}
+.bg1  a:hover {
+	box-shadow:inset 200px 0 0 0 yellow;
+	}
+</style>
+</head>
+<body>
+<ul>
+<a href="earth.html"><li STYLE="margin-left:10%;">WATCH A SONG</li></a>
+<a href="profile.html"><li>THE POET</li></a>
+<a href="read.html"><li>READ THE POEM</li></a>
+<a href="poem.html"><li>ENJOY THE POEM</li></a>
+<a href="revisit.pdf"><li>REVISIT THE POEM</li></a></ul>
+<ul class="bottom"><a href="poetic_devices.odp"><li style="margin-left:18%";>POETIC DEVICES</li></a>
+<a href="index.html"><li>EVALUATION</li></a>
+<a href="samagra.odp"><li STYLE="padding:1% 3%;">MORE</li></a>
+<a href="assignment.html"><li>ASSIGNMENT</li></a>
+<a href="score.html" ><li>SCORE SHEET</li></a>
+</ul>
+<div class="bg1">
+<DIV STYLE="#0c002b;">
+<a id="head" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    SONG OF THE RAIN
+  </a>
+</DIV>
+</div>
+
+</body>
+</html>

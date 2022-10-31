@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  border: none;
+  outline:none;
+  padding: 0;
+}
+
+
+li {
+  display: inline-block;
+  font-size: 150%;
+  color:white;
+  text-decoration: none;
+   padding: 1% 2.3%;
+}
+li {
+    background: rgba(0, 223, 249, 0.5);
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+ul {
+position:absolute;
+height:50px;
+  width: 100%;
+
+  
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 40%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width:max-content;
+  animation:blink 1s infinite;
+text-decoration:none;
+}
+h3{  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  }
+  h2{
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+  }
+  @keyframes blink{
+  0%{background: -webkit-linear-gradient(0deg,#3498db, #8e44ad);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; }
+  100%{background: -webkit-linear-gradient(0deg,dodgerblue, cyan);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
+

@@ -1,0 +1,137 @@
+<html>
+<head>
+<link href=".style.css" type="text/css" rel="stylesheet">
+<link href="" type="image/x-icon" rel="shortcut icon">
+<title>SONG OF THE RAIN</title>
+
+<style>
+#head{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #fff;
+padding: 30px 60px;
+font-size: 43px;
+letter-spacing: 2px;
+text-decoration: none;
+text-transform: uppercase;
+box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+overflow: hidden;
+transition: 0.5s;
+width: max-content;
+font-weight: 800;animation: blink 1s linear infinite;
+}
+#head:hover{
+ transform:translate(-50%,-50%) scale(1.07);
+}
+
+#head span:nth-child(1){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #fff, #1779ff);
+  animation: animate1 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate1{
+  0%{
+    transform: translateX(-100%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+#head span:nth-child(2){
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to bottom, #0c002b, #1779ff);
+  animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}
+
+#head span:nth-child(3){
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to left, #0c002b, #1779ff);
+  animation: animate3 2s linear infinite;
+  animation-delay: 1s;
+}
+@keyframes animate3{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(-100%);
+  }
+}
+
+#head span:nth-child(4){
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(to top, #0c002b, #1779ff);
+  animation: animate4 2s linear infinite;
+}
+@keyframes animate4{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(-100%);
+  }
+}
+@keyframes blink{
+0% {
+    
+    color: #fff;
+}
+100% {
+    
+    color: #000;
+}}
+</style>
+</style>
+</head>	
+<body>
+<video autoplay loop muted id="myVideo">
+  <source src=".entry.webm" type="video/webm">
+</video>
+
+
+
+<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);">
+<div class="bg1">
+<DIV STYLE="#0c002b;">
+<a id="head" href="WEB/home.html">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    SONG OF THE RAIN
+  </a>
+</DIV>
+</div>
+
+</div>
+</body>
+</html>
